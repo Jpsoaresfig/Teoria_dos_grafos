@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Distance Calculator between Two Points</h1>
+
+        <label for="x1">Coordinate x of the first point:</label>
+        <input type="number" id="x1" placeholder="Enter the x coordinate" required>
+
+        <label for="y1">Coordinate y of the first point:</label>
+        <input type="number" id="y1" placeholder="Enter the y coordinate" required>
+
+        <label for="x2">Coordinate x of the second point:</label>
+        <input type="number" id="x2" placeholder="Enter the x coordinate" required>
+
+        <label for="y2">Coordinate y of the second point:</label>
+        <input type="number" id="y2" placeholder="Enter the y coordinate" required>
+
+        <button onclick="calculateDistance()">Calculate Distance</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
